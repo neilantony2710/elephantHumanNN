@@ -4,4 +4,4 @@ sklearn
 pandas
 keras
 gunicorn
-tensorflow
+tensorflow-cpu
