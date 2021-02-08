@@ -6,7 +6,7 @@ import keras
 from keras.models import load_model
 
 app = Flask(__name__)
-model = load_model("humanelephantrecog.h5")
+model = load_model("humanelephantrecog.h5", compile=False)
 
 
 def prediction(w, h):
