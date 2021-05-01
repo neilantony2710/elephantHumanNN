@@ -8,7 +8,7 @@ from keras.models import load_model
 app = Flask(__name__)
 model = load_model("humanelephantrecog.h5", compile=False)
 
-
+########How to make a neural network
 def prediction(w, h):
     h = int(h)
     w = int(w)
